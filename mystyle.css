@@ -115,30 +115,102 @@ li {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+/*  Desktop  */
+@media (min-width: 1200px) {
     .anime h1 {
-        font-size: 2em;
+        font-size: 5em;
     }
-
     .menu {
-        flex-direction: column;
-        gap: 10px;
+        width: 80%;
     }
-
-    .menu ul {
-        flex-direction: column;
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
     }
-
-    .header h1 {
-        font-size: 2.5rem;
+    .header {
+        max-width: 700px;
     }
-
-    .header h3 {
-        font-size: 1.2rem;
+    .mp4 {
+        max-width: 500px;
     }
 }
 
+/*  Laptop  */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .anime h1 {
+        font-size: 4em;
+    }
+    .menu {
+        width: 85%;
+    }
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header {
+        max-width: 600px;
+    }
+    .mp4 {
+        max-width: 400px;
+    }
+}
 
+/*  Tablet  */
+@media (min-width: 768px) and (max-width: 991px) {
+    .anime h1 {
+        font-size: 3em;
+    }
+    .menu {
+        width: 90%;
+        flex-direction: column;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .header {
+        max-width: 500px;
+    }
+    .mp4 {
+        max-width: 100%;
+    }
+}
+
+/* phone  */
+@media (max-width: 767px) {
+    .anime h1 {
+        font-size: 2em;
+    }
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .content {
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+    }
+    .header {
+        max-width: 100%;
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .header h3 {
+        font-size: 1.2rem;
+    }
+    .mp4 {
+        max-width: 100%;
+        padding: 0;
+    }
+}
 
 
 
