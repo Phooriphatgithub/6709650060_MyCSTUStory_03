@@ -1,0 +1,304 @@
+/*index.html*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://png.pngtree.com/background/20230618/original/pngtree-abstract-geometric-background-in-red-and-black-visualized-in-3d-picture-image_3750876.jpg);
+    color: white;
+    background-size: cover;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.anime {
+    text-align: center;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1igO8w.img?w=1920&h=1080&m=4&q=96);
+    background-size: cover;
+    padding: 20px;
+}
+
+.anime h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.logo i {
+    font-size: 2rem;
+    color: red;
+}
+
+.menu ul {
+    display: flex;
+    gap: 15px;
+}
+
+.menu ul li a {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.header h3 {
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    opacity: 0.8;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.header button {
+    border: solid 2px #fff;
+    background: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.mp4 {
+    max-width: 500px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .anime h1 {
+        font-size: 2em;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* myfuture.html */
+
+.contentfu{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.contentfu .headerfu .grid-cardfu{
+    width: 50%;
+    position: relative;
+
+}
+.contentfu .headerfu{
+    color: #fff;
+    padding: 30px;
+}
+.contentfu .headerfu h3{
+    font-size: 2.3rem;
+    letter-spacing: 2PX;
+}
+.contentfu .headerfu h3 i{
+    color: gold;
+}
+.contentfu .headerfu h1{
+    font-size: 4.5rem;
+}
+.contentfu .header p{
+    opacity: .10;
+    font-style: italic;
+}
+.grid-cardfu{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+.grid-cardfu .box{
+    width:100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 850px;
+    padding-top: 500px;
+    color: white;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+
+
+.bgfu1{
+    background-image: url(https://th.bing.com/th/id/R.2e2ef754bca5932a1dc14d80d2078817?rik=IB7AUK30GHjQpg&pid=ImgRaw&r=0);
+}
+
+.contentfu .box h2{
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+
+.contentfu .box:hover{
+    transform: translate(-15px);
+}
+
+
+/* myfuture.html */
+
+/*myjouney.html*/
+.contentjour{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.contentjour .headerjour,.grid-cardjour{
+    width: 50%;
+    position: relative;
+    
+}
+
+.contentjour .headerjour{
+    color: white;
+    padding: 20px;
+
+}
+
+.contentjour .headerjour h3{
+    font-size: 2.3rem;
+    letter-spacing: 5px;
+}
+
+.contentjour .headerjour h3 i{
+    color:gold;
+}
+
+.contentjour .headerjour h1{
+    font-size: 5rem;
+}
+
+.contentjour .headerjour p{
+    opacity: .6;
+}
+
+.grid-cardjour{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+.grid-cardjour .boxjour{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: .4s;
+    position: relative;
+}
+
+
+.bgjour1{
+    background-image: url(https://intellectualtakeout.org/wp-content/uploads/2022/03/screen_shot_2018-01-08_at_11.51.19_am.png)
+}
+
+.bgjour2{
+    background-image: url(https://www.balancedfinancial.com.au/wp-content/uploads/revslider/home-2/slider_2_2.jpg?788704&788704)
+}
+
+.bgjour3{
+    background-image: url(https://img.freepik.com/premium-photo/silhouette-group-happy-business-team-making-high-hands-head-sunset-sky-background_629685-5218.jpg)
+}
+
+.bgjour4{
+    background-image: url(https://www.thesmarthealthcenter.com/wp-content/uploads/2022/07/How-to-Manifest-Something-Overnight2.jpg)
+}
+
+.contentjour .boxjour h2{
+    position: absolute;
+    bottom: 7px;
+    left: 15px;
+    color: purple;
+}
+
+.contentjour .boxjour:hover{
+    transform: translate(-15px);
+}
+
+
+
